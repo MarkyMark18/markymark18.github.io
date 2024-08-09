@@ -53,3 +53,19 @@ footer {
     list-style: none;
     padding: 0;
 }
+
+/***********************************
+* RULES FOR DIFFERENT SCREEN SIZES *
+***********************************/
+
+/*********
+* MOBILE *
+*********/
+
+@media screen and (max-width: 600px) {
+
+    #header-control-buttons {
+        display: none;
+    }
+
+}
