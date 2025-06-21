@@ -40,18 +40,32 @@ footer {
     height: 100vh;
 }
 
-#bio {
+#console {
     display: flex;
+    flex-direction: column;
     justify-content: left;
+    line-height: 1.2;
     padding-left: 10px;
 }
 
-#socials-list {
+#typed-text-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    list-style: none;
-    padding: 0;
+}
+
+.path {
+    color: rgb(107, 107, 107);
+}
+
+#cursor {
+    display: inline-block;
+    animation: blink 1s step-start infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
 }
 
 /***********************************
