@@ -2,10 +2,11 @@ const path = "C:\\Users\\markh>";
 
 // The lines of text to be 'typed out' by the page
 const lines = [
-  { text: "Second year Computer Science student at The University of Sheffield." },
+  { text: "Third year Computer Science student at The University of Sheffield." },
   { text: "Check out my projects on GitHub", linkText: "GitHub", linkHref: "https://github.com/MarkyMark18/" },
   { text: "Find me on LinkedIn", linkText: "LinkedIn", linkHref: "https://www.linkedin.com/in/mark-harrison-2833a57a" },
   { text: "I've created a viewer for your old MSN Messenger chat logs :) Find it here", linkText: "here", linkHref: "https://github.com/MarkyMark18/msn-chat-viewer" },
+  { text: "Python implementations of cryptographic algorithms from my university modules. Find them here.", linkText: "here", linkHref: "https://github.com/MarkyMark18/crypto-playground" },
   { text: "" }
 ]
 
